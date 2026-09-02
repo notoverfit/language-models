@@ -19,7 +19,7 @@ $$
 $$
 
 The trigrams should be fairly obvious. After we form the conditional probability distribution for some `n`-gram (we will see for our given data which lookback is optimal), we have two options:
-1. Take the most probable word ($\argmax$)
+1. Take the most probable word ($\text{arg max}$)
 2. Sample from the distribution
 
-Sampling from the distribution causes non-deterministic behaviour which is desirable for many reasons; and is also the approach that modern LLMs take. I won't go into why taking $\argmax$ approaches are generally a bad idea for now, as they will hopefully become evident later on.
+Sampling from the distribution causes non-deterministic behaviour which is desirable for many reasons; and is also the approach that modern LLMs take. I won't go into why taking $\text{arg max}$ approaches are generally a bad idea for now, as they will hopefully become evident later on.
